@@ -1,5 +1,5 @@
 :root {
-  --btn-light: #5b5b5e;
+  --btn-light: #A4A4A4;
   --btn-dark: #29292b;
   --btn-orange: #fe9e09;
 }
@@ -24,7 +24,7 @@ body {
   width: 320px;
 }
 
-.display {
+#display {
   background-color: #222;
   color: #ffffff;
   border-radius: 5px;
@@ -32,11 +32,8 @@ body {
   margin-bottom: 20px;
   min-height: 40px;
   text-align: right;
-}
-
-.display p {
-  padding-right: 10px;
-  font-size: 30px;
+  padding: 15px;
+  font-size: 35px;
 }
 
 .btn-grid {
@@ -55,7 +52,7 @@ button {
   border: none;
   border-radius: 50px;
   padding: 20px;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   cursor: pointer;
 }
 
@@ -72,11 +69,16 @@ button:active {
 }
 
 .btn-light {
+  color: #212121;
   background-color: var(--btn-light);
 }
 
 .btn-light:hover {
-  background-color: hsl(240, 2%, 50%);
+  background-color: hsl(0, 0%, 74%);
+}
+
+.btn-light:active {
+  background-color: hsl(0, 0%, 80%);
 }
 
 .btn-orange {
