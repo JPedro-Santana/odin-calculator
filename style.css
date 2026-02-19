@@ -34,6 +34,7 @@ body {
   text-align: right;
   padding: 15px;
   font-size: 35px;
+  overflow: hidden;
 }
 
 .btn-grid {
